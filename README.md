@@ -17,7 +17,7 @@
          under the License.
 -->
 
-# org.apache.cordova.media
+# High quality audio recording on Android
 
 Plugin documentation: [doc/index.md](doc/index.md)
 

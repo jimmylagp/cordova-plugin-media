@@ -21,5 +21,5 @@
 
 Plugin documentation: [doc/index.md](doc/index.md)
 
-#### Added support for high quality audio recording on Android 2.3.3+ to record AAC with 44100 audio sampling
+Added support for high quality audio recording on Android 2.3.3+ to record AAC with 44100 audio sampling
 

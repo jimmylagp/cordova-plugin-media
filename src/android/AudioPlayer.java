@@ -143,8 +143,10 @@ public class AudioPlayer implements OnCompletionListener, OnPreparedListener, On
                 if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.GINGERBREAD_MR1) {
                     
                     // support to record AAC with 44100 audio sampling
-                    this.recorder.setAudioSamplingRate(44100);
-                    this.recorder.setAudioEncodingBitRate(96000);
+                    //this.recorder.setAudioSamplingRate(44100);
+                    this.recorder.setAudioSamplingRate(11025);
+                    //this.recorder.setAudioEncodingBitRate(96000);
+                    this.recorder.setAudioEncodingBitRate(19000);
                     this.recorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
                     this.recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
 
